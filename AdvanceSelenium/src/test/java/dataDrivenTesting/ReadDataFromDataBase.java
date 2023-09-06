@@ -8,9 +8,9 @@ import java.sql.Statement;
 
 import org.testng.annotations.Test;
 
-import com.mysql.jdbc.Driver;
+import com.mysql.cj.jdbc.Driver;
 
-public class ReadDataFromDataBaseTest {
+public class ReadDataFromDataBase {
 	@Test
 	public void test() throws Throwable {
 		//step 1:load/register the driver

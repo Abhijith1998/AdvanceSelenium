@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-30T15:53:42 IST" name="Default suite" finished-at="2023-08-30T15:53:42 IST" duration-ms="126">
+  <suite started-at="2023-09-06T11:48:27 IST" name="Default suite" finished-at="2023-09-06T11:48:27 IST" duration-ms="145">
     <groups>
     </groups>
-    <test started-at="2023-08-30T15:53:42 IST" name="Default test" finished-at="2023-08-30T15:53:42 IST" duration-ms="126">
+    <test started-at="2023-09-06T11:48:27 IST" name="Default test" finished-at="2023-09-06T11:48:27 IST" duration-ms="145">
       <class name="dataDrivenTesting.ReadDataFromDataBaseTest">
-        <test-method signature="test()[pri:0, instance:dataDrivenTesting.ReadDataFromDataBaseTest@1fa268de]" started-at="2023-08-30T15:53:42 IST" name="test" finished-at="2023-08-30T15:53:42 IST" duration-ms="92" status="FAIL">
+        <test-method signature="test()[pri:0, instance:dataDrivenTesting.ReadDataFromDataBaseTest@1fa268de]" started-at="2023-09-06T11:48:27 IST" name="test" finished-at="2023-09-06T11:48:27 IST" duration-ms="114" status="FAIL">
           <exception class="com.mysql.cj.jdbc.exceptions.CommunicationsException">
             <message>
               <![CDATA[Communications link failure
