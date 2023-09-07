@@ -1,7 +1,5 @@
 package dataDrivenTesting;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -16,6 +14,7 @@ public class ReadDataFromJsonTest {
 		FileReader fr=new FileReader("./testData/commondata.json");
 		JSONParser parser=new JSONParser();
 		JSONObject jObj = (JSONObject) parser.parse(fr);
+		
 		System.out.println(jObj.get("browser"));
 		System.out.println(jObj.get("url"));
 		System.out.println(jObj.get("username"));
